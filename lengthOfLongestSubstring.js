@@ -14,6 +14,6 @@
           map[char] = index;
           const windowSize = index - left + 1;
           return Math.max(max, windowSize);
-          
+         
       }, 0);
 };
